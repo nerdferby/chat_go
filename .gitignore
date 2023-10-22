@@ -1,0 +1,51 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_obj/
+_test/
+
+# Output files
+*.exe
+*.test
+*.prof
+*.out
+
+# Dependency directories (e.g., the ones created by `go get`)
+/bin/
+/pkg/
+/src/
+
+# Compiled Go files
+*.test
+*.prof
+
+# Application binaries
+/application
+
+# Log files and others that might be generated during development
+*.log
+*.log.*
+logs/
+*.log
+*.log.*
+*.json
+*.xlsx
+*.csv
+
+# Go Ignore
+*~*
+*.sw[op]
+*.tmp
+
+# Project-specific file/directory exclusions (e.g., config files with secrets)
+config.json
+
+# IDE-specific files/directories (e.g., Visual Studio Code)
+.vscode/
+
+# System-specific files
+.DS_Store
+Thumbs.db
